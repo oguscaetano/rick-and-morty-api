@@ -11,8 +11,37 @@
 
 <body>
   <form action="" method="get">
-    <input type="number" name="" id="characterId">
-    <button id="btn-go">VAI</button>
+    <h2>Busca de personagem:</h2>
+    <label for="characterId">ID da personagem</label>
+    <input type="number" name="characterId" id="characterId">
+
+    <hr>
+
+    <h2>Informações:</h2>
+    <label for="name">Nome</label>
+    <input type="checkbox" name="name" id="name">
+
+    <label for="status">Status</label>
+    <input type="checkbox" name="status" id="status">
+
+    <label for="species">Espécie</label>
+    <input type="checkbox" name="species" id="species">
+
+    <label for="gender">Gênero</label>
+    <input type="checkbox" name="gender" id="gender">
+
+    <label for="origin">Planeta de origem</label>
+    <input type="checkbox" name="origin" id="origin">
+
+    <label for="image">Foto</label>
+    <input type="checkbox" name="image" id="image">
+
+    <label for="episode">Episódios</label>
+    <input type="checkbox" name="episode" id="episode">
+
+    <hr>
+
+    <button id="btn-go">Pesquisar</button>
   </form>
   <pre id="content"></pre>
   <img src="" alt="" id="img">
